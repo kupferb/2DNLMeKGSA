@@ -102,8 +102,8 @@ for fileIndex=1:length(directoryFiles)
             
             Pxy=fxy/m/n;
             %% Display the 2D-histogram     
-            figure,
-            mesh(Pxy);
+%             figure,
+%             mesh(Pxy);
 
             Lmax1=254;
             
@@ -154,8 +154,8 @@ for fileIndex=1:length(directoryFiles)
             
             X = imageGRAY(I,Thresholds);
             %% For displaying the segmented image
-                         figure;
-                         imshow(X);
+%                          figure;
+%                          imshow(X);
             X1=X;
             X1=double(X1);
             
@@ -163,8 +163,8 @@ for fileIndex=1:length(directoryFiles)
             %% for labelling
             X = imquantize(I,Thresholds);
             %% For displaying the segmented image
-                         figure;
-                         imshow(X);
+%                          figure;
+%                          imshow(X);
             
             %% Post-Processing steps
             outdata={gBest(1),gBest(2),gBest(3),gBest(4),gBest(5),gBest(6),gBest(7),gBest(8),'' , gbestvalue, '' , FEcount, '' , etime, '' , iteration};
