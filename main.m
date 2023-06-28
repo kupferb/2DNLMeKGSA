@@ -37,6 +37,6 @@ for i=1:size(method,1)
         % For measuring the BDE, VoI, PRE, GCE
         seg_measure1(methodname,filename);
         % For measuring the other parameters, e.g. SSIM, RMSE, etc.
-        seg_measure2(methodname,filename);
+%         seg_measure2(methodname,filename);
     end
 end
