@@ -1,8 +1,12 @@
 clearvars
 
 present = 'color';
-ims_dir = 'D:\DataSet\BSD\300\BSDS300\images\test';
-mat_dir = 'D:\MATLAB\github\2DNLMeKGSA\benchset';
+% ims_dir = 'D:\DataSet\BSD\300\BSDS300\images\test';
+% mat_dir = 'D:\MATLAB\github\2DNLMeKGSA\benchset';
+
+ims_dir = 'C:\Study\Datasets\BSD\300\BSDS300\images\test';
+mat_dir = 'C:\Users\Benny\MATLAB\Projects\2DNLMeKGSA\benchset';
+
 ims_data = dir(fullfile(ims_dir, '*.jpg'));
 ims_names = {ims_data.name}';
 

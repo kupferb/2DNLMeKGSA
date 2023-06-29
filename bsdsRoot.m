@@ -7,3 +7,4 @@ function [root] = bsdsRoot()
 % March 2003
 
 root = 'D:\DataSet\BSD\300\BSDS300';
+root = 'C:\Study\Datasets\BSD\300\BSDS300';
